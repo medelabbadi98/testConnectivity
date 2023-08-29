@@ -17,7 +17,7 @@ public class TcpServerConfig {
 
     @Bean
     public AbstractServerConnectionFactory serverConnectionFactory() {
-        return new TcpNetServerConnectionFactory(9876); // Change to your desired port
+        return new TcpNetServerConnectionFactory(5053); // Change to your desired port
     }
 
     @Bean
